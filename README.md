@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt and MongoDB
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Rename the .env.example to .env and edit the file include your own MongoDB URI
 
 ## Setup
 
@@ -23,6 +23,8 @@ bun install
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
+
+If Prisma asks you to do a migration, press _n_ and _Enter_ as MongoDB does not need migrations to work with Prisma
 
 ```bash
 # npm
